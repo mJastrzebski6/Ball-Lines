@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white
+}
+.second{
+  background-color: #1f1f1f;
+  
+}
+
+#playboard {
+  width: 40vw;
+  height: 40vw;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  /* flex: 1; */
+  width: 11.11%;
+  height: 11.11%;
+  /* background-color: chartreuse; */
+  box-sizing: border-box;
+  border: 1px white solid;
+  color: white;
+  font-size: 8px;
+}
+
+.checkedSquare{
+  cursor: pointer;
+}
+.highlightedSquare{
+  background-color: red;
+}
+.highlightedSquare2 {
+  background-color: gray;
+}
+
+.circle {
+  width: 60%;
+  height: 60%;
+  border-radius: 100%;
+  margin: 20%;
+  pointer-events: none;
+  /* cursor: pointer; */
+}
+
+.checkedCircle {
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+  margin: 5%;
+  pointer-events: none;
+  /* cursor: pointer; */
+}
+
+#panel > * {
+  color: white;
+}
+
+#panel {
+  padding-right: 20px;
+}
+.previewBallDiv {
+  width: 20px;
+  height: 20px;
+}
+#ballsPreview {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  margin: 0;
+}
